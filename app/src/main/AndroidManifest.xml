@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.newciety2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="NEWCIETY"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="Welcome 2 Newciety" />
+        <activity
+            android:name=".AndroidActivity"
+            android:label="Android Development" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="Help desk" />
+        <activity
+            android:name=".DesignActivity"
+            android:label="Designing" />
+        <activity android:name=".CodingActivity"
+            android:label="Online coding"/>
+        <activity android:name=".WebActivity"
+            android:label="Web Development"/>
+        <activity android:name=".HackingActivity"
+            android:label="Ethical Hacking"></activity>
+    </application>
+
+</manifest>
